@@ -1,0 +1,15 @@
+{
+  "name": "동학개미 컨닝노트",
+  "short_name": "컨닝노트",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FDFBF7",
+  "theme_color": "#FDFBF7",
+  "icons": [
+    {
+      "src": "/icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
