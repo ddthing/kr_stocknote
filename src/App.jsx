@@ -1,5 +1,5 @@
 import React, { useState, useMemo } from 'react';
-import { Search, ArrowLeft, ChevronRight, PieChart, Battery, Zap, Car, Pill, Smartphone, Clapperboard, Bot, Cpu, Layers, Shield, Anchor, Globe, Coins, BookOpen, Star, PenTool, Sparkles } from 'lucide-react';
+import { Search, ArrowLeft, ChevronRight, PieChart, Battery, Zap, Car, Pill, Smartphone, Clapperboard, Bot, Cpu, Layers, Shield, Anchor, Globe, Coins, BookOpen, Star, PenTool, Sparkles, Crown } from 'lucide-react';
 
 // --- Custom Color Palette (Refined Notebook Theme) ---
 const PALETTE = {
@@ -597,4 +597,3 @@ const App = () => {
 };
 
 export default App;
-```eof
