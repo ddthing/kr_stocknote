@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+/* 기본 폰트 및 렌더링 설정 */
 body {
   margin: 0;
-  /* 고딕 폰트 적용 */
   font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
