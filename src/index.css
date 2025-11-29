@@ -5,8 +5,11 @@
 @tailwind utilities;
 
 /* 기본 설정 */
-body {
+html, body {
   margin: 0;
+  padding: 0;
+  width: 100%;
+  overflow-x: hidden; /* 가로 스크롤 강제 방지 */
   font-family: 'Noto Sans KR', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -14,7 +17,6 @@ body {
 
 /* 줄노트 배경 패턴 */
 .notebook-bg {
-  /* margin 색상은 JS에서 정의된 PALETTE.margin(#FECACA)과 일치시킴 */
   background-image: 
     linear-gradient(90deg, transparent 39px, #FECACA 39px, #FECACA 41px, transparent 41px),
     linear-gradient(#E5E7EB 1px, transparent 1px);
@@ -24,7 +26,7 @@ body {
 
 /* 검색 입력창 스타일 */
 .search-input::placeholder {
-  color: #9CA3AF; /* PALETTE.pencil */
+  color: #9CA3AF;
   opacity: 0.7;
 }
 
